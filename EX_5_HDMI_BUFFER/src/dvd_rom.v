@@ -1,4 +1,4 @@
-module dvd_rom (
+module dvd_rom ( 
     input  logic [5:0] addr_x,
     input  logic [4:0] addr_y,
     output logic pixel_out
@@ -26,7 +26,7 @@ module dvd_rom (
         mem[16] = 40'b0000000000_00000_0000000000_00000_0000000000;
         mem[17] = 40'b0000000000_00000_0000000000_00000_0000000000;
         mem[18] = 40'b0000000000_00000_0000000000_00000_0000000000;
-        mem[19] = 40'b0000000000_00000_0000000000_00000_0000000000;
+        mem[19] = 40'b0000000000_00000_0000000000_00000_0000000001;
     end
 
     // Legge il bit corretto (da sinistra verso destra)

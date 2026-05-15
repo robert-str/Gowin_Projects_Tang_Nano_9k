@@ -1,11 +1,11 @@
 // ============================================================================
-// MODULO: tmds_encoder pipelined (Algoritmo 8b/10b per DVI/HDMI)
+// MODULE: tmds_encoder pipelined (Algorithm 8b/10b for DVI/HDMI)
 // ============================================================================
 module tmds_encoder (
     input  logic        clk,
     input  logic        rst_n,
 
-    input  logic        vde,         // data enable (1 = video, 0 = control)
+    input  logic        vde,        // data enable (1 = video, 0 = control)
     input  logic [1:0]  ctrl,       // {vsync, hsync}
     input  logic [7:0]  data_in,    // pixel data
 
@@ -28,7 +28,6 @@ module tmds_encoder (
     // Stage 2 signals
     logic [3:0]        n1_qm;
     logic signed [5:0] balance;
-    //logic signed [5:0] n1_qm_s;
 
     logic [9:0]        next_tmds;
     logic signed [5:0] next_disparity;

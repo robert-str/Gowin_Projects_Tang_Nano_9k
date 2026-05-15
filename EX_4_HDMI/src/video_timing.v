@@ -1,5 +1,5 @@
 // ============================================================================
-// MODULO: video_timing
+// MODULE: video_timing
 // ============================================================================
 module video_timing #(
     //default values
@@ -50,7 +50,7 @@ module video_timing #(
     assign hsync_int  = (cx >= H_ACTIVE + H_FRONT) && (cx < H_ACTIVE + H_FRONT + H_SYNC);  
     assign vsync_int = (cy >= V_ACTIVE + V_FRONT) && (cy < V_ACTIVE + V_FRONT + V_SYNC);  
 
-    //polarity depends on resolution
+    // Polarity depends on resolution
     assign hsync = H_SYNC_POL ? hsync_int : ~hsync_int;     //when next row
     assign vsync = V_SYNC_POL ? vsync_int : ~vsync_int;     //when next frame
     assign vde   = (cx < H_ACTIVE) && (cy < V_ACTIVE);      // Video Data Enable
