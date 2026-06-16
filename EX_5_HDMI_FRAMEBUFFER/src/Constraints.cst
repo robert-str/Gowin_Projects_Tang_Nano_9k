@@ -1,0 +1,29 @@
+// ============================================================================
+// HDMI TMDS OUTPUTS (The Tang Nano 9K uses ELVDS / LVCMOS33D)
+// ============================================================================
+ 
+IO_LOC  "tmds_d0_p" 71, 70;
+IO_PORT "tmds_d0_p" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8;
+
+IO_LOC  "tmds_d1_p" 73, 72;
+IO_PORT "tmds_d1_p" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8;
+
+IO_LOC  "tmds_d2_p" 75, 74;
+IO_PORT "tmds_d2_p" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8;
+
+IO_LOC  "tmds_clk_p" 69, 68;
+IO_PORT "tmds_clk_p" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8;
+
+
+// ============================================================================
+// RESET BUTTON
+// ============================================================================
+IO_LOC  "rst_n" 3;
+IO_PORT "rst_n" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+// ============================================================================
+// INPUT CLOCK 27 MHz
+// ============================================================================
+IO_LOC  "clk_27MHz" 52;
+IO_PORT "clk_27MHz" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+

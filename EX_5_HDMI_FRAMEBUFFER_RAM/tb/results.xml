@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1781092871" />
+    <testcase name="capture_framebuffer_frame" classname="test_hdmi_framebuffer_capture" file="/mnt/c/Gowin/FPGA_TESI/EX_5_HDMI_FRAMEBUFFER_RAM/tb/test_hdmi_framebuffer_capture.py" lineno="350" time="45.056222438812256" sim_time_ns="16801000.0" ratio_time="372889.6718497934" />
+  </testsuite>
+</testsuites>

@@ -8,13 +8,13 @@
         <File path="src/TMDS_encoder.v" type="file.verilog" enable="1"/>
         <File path="src/TOP.v" type="file.verilog" enable="1"/>
         <File path="src/framebuffer.v" type="file.verilog" enable="1"/>
-        <File path="src/framebuffer_addr_generator.v" type="file.verilog" enable="1"/>
         <File path="src/framebuffer_video_pipeline.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sp/gowin_sp.v" type="file.verilog" enable="1"/>
         <File path="src/rgb332_to_rgb888.v" type="file.verilog" enable="1"/>
         <File path="src/serializer_10_1.v" type="file.verilog" enable="1"/>
         <File path="src/video_timing.v" type="file.verilog" enable="1"/>
         <File path="src/Constraints.cst" type="file.cst" enable="1"/>
-        <File path="src/image.mem" type="file.other" enable="1"/>
+        <File path="src/timings.sdc" type="file.sdc" enable="1"/>
     </FileList>
 </Project>

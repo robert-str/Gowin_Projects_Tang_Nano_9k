@@ -1,0 +1,14 @@
+Framebuffer capture report
+==========================
+
+FB_WIDTH     = 160
+FB_HEIGHT    = 120
+FRAME_SIZE   = 19200
+Total pixels = 19200
+
+Value distribution:
+0xE0: 19200
+
+Expected RED value = 0xE0
+RED pixels         = 19200/19200
+Result             = OK, framebuffer completely red

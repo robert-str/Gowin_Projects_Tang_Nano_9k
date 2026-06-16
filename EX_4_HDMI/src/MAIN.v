@@ -26,7 +26,7 @@ module hdmi_top #(
 
     // Needed bits to correct count pixels
     parameter int H_BITS = $clog2(H_TOTAL),
-    parameter int V_BITS = $clog2(H_TOTAL)
+    parameter int V_BITS = $clog2(V_TOTAL)
 )(
     input  logic rst_n,       // Asynchronous reset active low
     input  logic clk_27MHz,   // Pixel clk
